@@ -13,7 +13,7 @@ struct msg_struct {
 
 extern int errno; // indicate error
 int main(int argc, char *argv[]){
-    printf("client executed");
+    printf("\nClient Executed...\n");
 
     key_t key = ftok("./queue", 1234);  // creates the key for the message queues
     int q_id; // message queue id
