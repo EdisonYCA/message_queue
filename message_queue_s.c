@@ -55,7 +55,7 @@ int main(int argc, char *argv[]){
 
         // get client path
         if(getcwd(path, sizeof(path)) > 0){
-            strcat(path, "/message_queue_c.c");
+            strcat(path, "/msgqc");
         } else{
             perror("Get cwd");
             exit(1);
